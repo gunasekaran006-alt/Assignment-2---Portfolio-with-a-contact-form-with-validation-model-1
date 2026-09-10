@@ -17,9 +17,9 @@
     <header>
         <h1>Gunasekaran S</h1>
         <nav>
-            <a href="#about">About</a> | 
+            <a href="#about">About</a> |
             <a href="#projects">Projects</a> |
-            <a href="#contact">Contact</a> 
+            <a href="#contact">Contact</a>
         </nav>
         <hr>
     </header>
@@ -46,7 +46,7 @@
 
     <!-- Projects Section :- -->
 
-    <section id="Projects">
+    <section id="projects">
         <h2>Projects</h2>
 
         <h4>Project 1: Personal Portfolio Website</h4>
@@ -68,13 +68,16 @@
 
         <form>
             <label for="name">Name:</label><br>
-            <input type="text" name="required"><br><br>
+            <!-- <input type="text" name="required"><br><br> -->
+            <input type="text" id="name" name="user_name" required><br><br>
 
             <label for="email">Email:</label><br>
-            <input type="text" name="required"><br><br>
+            <!-- <input type="text" name="required"><br><br> -->
+            <input type="email" id="email" name="user_email" required><br><br>
 
             <label for="message">Message:</label><br>
-            <input type="text" name="required"><br><br>
+            <!-- <input type="text" name="required"><br><br> -->
+            <textarea id="message" name="user_message" rows="4" required></textarea><br><br>
 
             <button type="submit">Submit</button><br><br>
         </form>
